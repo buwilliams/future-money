@@ -10,8 +10,15 @@ Future money has two primary rules:
 1. Do not spend money meant for the future.
 2. Do not worry about money spent in the past.
 
-This allows you to do things like:
+This allows us to promise you:
 
-- Complete your monthly budget in 15 minutes.
-- Reduce stress since you are only concerns with the present and future.
+- A greatly simplified budget plan.
+- Complete your monthly budget as quickly as 5-15 minutes. Plan your financial year in an hour.
+- Reduce your financial stress.
 - Use the same layout for both *your plan* and *cash flow*.
+
+## Origin story
+
+Originally, I wanted a budget to help me manage the complexities of life. So, I did what 
+most people do, I made a spreadsheet. For the last twenty years, I've improved and tweaked 
+the spreadsheet but the essence has remained the same: *bugetting simplicity*.
