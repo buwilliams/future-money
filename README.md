@@ -1,6 +1,6 @@
 # Future money
 
-Open-source budget software designed for future money.
+Open-source budget web app designed for future money.
 
 ## What is future money?
 
