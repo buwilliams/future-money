@@ -1,0 +1,10 @@
+#!/usr/bin/env fish
+
+set containerid (sudo docker ps -a --filter name=future-money-mongo --format="{{.ID}}")
+
+if test -n "$containerid"
+    echo Stopping future-money-mongo container...
+    sudo docker stop (sudo docker ps --filter name=future-money-mongo --format="{{.ID}}")
+else
+    echo No future-money-mongo container running.
+end
