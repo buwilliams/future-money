@@ -1,6 +1,6 @@
 # Future money
 
-Budget software designed for future money.
+Open-source budget software designed for future money.
 
 ## What is future money?
 
@@ -22,3 +22,8 @@ This allows us to promise you:
 Originally, I wanted a budget to help me manage the complexities of life. So, I did what 
 most people do, I made a spreadsheet. For the last twenty years, I've improved and tweaked 
 the spreadsheet but the essence has remained the same: *bugetting simplicity*.
+
+## Technical Details
+
+- MERN Stack (Mongodb, express.js, React/Redux, node.js)
+- Docker
