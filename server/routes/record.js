@@ -1,4 +1,5 @@
 const express = require("express");
+const { ObjectID } = require("mongodb");
 
 // recordRoutes is an instance of the express router.
 // We use it to define our routes.
@@ -18,6 +19,16 @@ recordRoutes.route("/record").get(function (req, res) {
             if (err) throw err;
             res.json(result);
         });
+});
+
+recordRoutes.route("/record/:id").get(async function (req, res) {
+    let db_connect = dbo.getDb("employees");
+    const record = await db_connect
+        .collection("records")
+        .findOne({
+            "_id": ObjectID(req.params.id)
+        });
+    res.json(record)
 });
 
 // This section will help you create a new record.
